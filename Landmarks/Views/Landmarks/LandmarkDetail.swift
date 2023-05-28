@@ -25,7 +25,7 @@ struct LandmarkDetail: View {
             CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
-
+                
 
             VStack(alignment: .center) {
                 HStack {
@@ -48,7 +48,14 @@ struct LandmarkDetail: View {
 //                    .font(.title2)
                 Text(landmark.description)
                     .frame(maxWidth:350)
-                   
+                
+                Divider()
+                
+                Text("Current Owner:")
+                    .font(.headline)
+
+                Text(landmark.currentOwner)
+                
                     
             }
             .padding()

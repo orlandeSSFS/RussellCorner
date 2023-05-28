@@ -12,7 +12,8 @@
             "longitude": -71.8686668,
             "latitude": 42.454650
         },
-        "description": "The Yellow House was built around 1740. Thomas Hastings Russell bought it around 1880. It was handed down to Annie Louise (Walley) Densmore who lived there until her death at age 96. It is currently owned by Debbie and Charlie Cary. They added a horse barn. Adjacent to the Yellow House is the Little Red House.",
+        "description": "The Yellow House was built around 1740. Thomas Hastings Russell bought it around 1880. It was handed down to Annie Louise (Walley) Densmore who lived there until her death at age 96. Adjacent to the Yellow House is the Little Red House.",
+        "currentOwner": "Debbie and Charlie Cary",
         "imageName": "yellow"
     },
     {
@@ -29,6 +30,7 @@
             "latitude": 42.454650
         },
         "description": "The Grey House was once a post office.",
+        "currentOwner": "unknown",
         "imageName": "grey"
     },
     {
@@ -45,6 +47,7 @@
             "latitude": 42.454650
         },
         "description": "The White House was owned by the Pecks. There was a formal garden in the back yard.",
+        "currentOwner": "unknown",
         "imageName": "white"
     },
     {
@@ -61,6 +64,7 @@
             "latitude": 42.454650
         },
         "description": "The Mason's house.",
+        "currentOwner": "Rob Mason",
         "imageName": "brown"
     },
     {
@@ -77,6 +81,7 @@
             "latitude": 39.1496913
         },
         "description": "Demetri's house was built around 1972.",
+        "currentOwner": "Demetri Orlando and Joslyne Decker",
         "imageName": "demetri"
     },
    
