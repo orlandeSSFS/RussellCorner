@@ -19,14 +19,13 @@ struct LandmarkDetail: View {
         ScrollView {
             MapView(coordinate: landmark.locationCoordinate
                 )
-            
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
             
-
             CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
+
 
             VStack(alignment: .center) {
                 HStack {
@@ -45,9 +44,12 @@ struct LandmarkDetail: View {
 
                 Divider()
 
-                Text("About \(landmark.name)")
-                    .font(.title2)
+//                Text("About \(landmark.name)")
+//                    .font(.title2)
                 Text(landmark.description)
+                    .frame(maxWidth:350)
+                   
+                    
             }
             .padding()
         }

@@ -12,7 +12,7 @@
             "longitude": -71.8686668,
             "latitude": 42.454650
         },
-        "description": "The Yellow House was built in 1740.",
+        "description": "The Yellow House was built around 1740. Thomas Hastings Russell bought it around 1880. It was handed down to Annie Louise (Walley) Densmore who lived there until her death at age 96. It is currently owned by Debbie and Charlie Cary. They added a horse barn. Adjacent to the Yellow House is the Little Red House.",
         "imageName": "yellow"
     },
     {
@@ -28,7 +28,7 @@
             "longitude": -71.8686668,
             "latitude": 42.454650
         },
-        "description": "The Grey House was once a post office",
+        "description": "The Grey House was once a post office.",
         "imageName": "grey"
     },
     {
@@ -62,6 +62,22 @@
         },
         "description": "The Mason's house.",
         "imageName": "brown"
+    },
+    {
+        "name": "Demetri's House",
+        "category": "Houses",
+        "city": "Olney",
+        "state": "Maryland",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "Diaspora",
+        "coordinates": {
+            "longitude": -77.0907336,
+            "latitude": 39.1496913
+        },
+        "description": "Demetri's house was built around 1972.",
+        "imageName": "demetri"
     },
    
 ]
