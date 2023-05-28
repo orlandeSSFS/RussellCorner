@@ -1,0 +1,67 @@
+[
+    {
+        "name": "The Yellow House",
+        "category": "Houses",
+        "city": "Princeton",
+        "state": "Massachusetts",
+        "id": 1001,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Russell Corner",
+        "coordinates": {
+            "longitude": -71.8686668,
+            "latitude": 42.454650
+        },
+        "description": "The Yellow House was built in 1740.",
+        "imageName": "yellow"
+    },
+    {
+        "name": "The Grey House",
+        "category": "Houses",
+        "city": "Princeton",
+        "state": "Massachusetts",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "park": "Russell Corner",
+        "coordinates": {
+            "longitude": -71.8686668,
+            "latitude": 42.454650
+        },
+        "description": "The Grey House was once a post office",
+        "imageName": "grey"
+    },
+    {
+        "name": "The White House",
+        "category": "Houses",
+        "city": "Princeton",
+        "state": "Massachusetts",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "park": "Russell Corner",
+        "coordinates": {
+            "longitude": -71.8686668,
+            "latitude": 42.454650
+        },
+        "description": "The White House was owned by the Pecks. There was a formal garden in the back yard.",
+        "imageName": "white"
+    },
+    {
+        "name": "The Brown House",
+        "category": "Houses",
+        "city": "Princeton",
+        "state": "Massachusetts",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Russell Corner",
+        "coordinates": {
+            "longitude": -71.8686668,
+            "latitude": 42.454650
+        },
+        "description": "The Mason's house.",
+        "imageName": "brown"
+    },
+   
+]
