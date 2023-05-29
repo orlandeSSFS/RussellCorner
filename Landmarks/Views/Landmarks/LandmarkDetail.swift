@@ -61,7 +61,7 @@ struct LandmarkDetail: View {
                 Divider()
                 
                 VStack {
-                    Button("Start") {
+                    Button("Play Audio") {
                         sound.play()
                     }
 
