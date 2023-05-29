@@ -23,6 +23,8 @@
 		D70E06762A2368F200DBC8A4 /* RegionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70E06752A2368F200DBC8A4 /* RegionDetail.swift */; };
 		D733DE2A2A23FD3800443958 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = D733DE292A23FD3800443958 /* Subsonic */; };
 		D733DE2C2A23FD7C00443958 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D733DE2B2A23FD7C00443958 /* song.mp3 */; };
+		D7F7A3CB2A24CC4C0065D0BD /* nerd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7F7A3C92A24CC4C0065D0BD /* nerd.mp3 */; };
+		D7F7A3CC2A24CC4C0065D0BD /* rush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7F7A3CA2A24CC4C0065D0BD /* rush.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		C2C583C124DB80DA00DD0019 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		D70E06752A2368F200DBC8A4 /* RegionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionDetail.swift; sourceTree = "<group>"; };
 		D733DE2B2A23FD7C00443958 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song.mp3; path = ../../../../song.mp3; sourceTree = "<group>"; };
+		D7F7A3C92A24CC4C0065D0BD /* nerd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nerd.mp3; path = ../../../../nerd.mp3; sourceTree = "<group>"; };
+		D7F7A3CA2A24CC4C0065D0BD /* rush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rush.mp3; path = ../../../../rush.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		C20D780824B685C4002E7AEA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D7F7A3C92A24CC4C0065D0BD /* nerd.mp3 */,
+				D7F7A3CA2A24CC4C0065D0BD /* rush.mp3 */,
 				D733DE2B2A23FD7C00443958 /* song.mp3 */,
 				C20D780424B684EC002E7AEA /* ModelData.swift */,
 				C20D780224B684BD002E7AEA /* Landmark.swift */,
@@ -231,6 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C20D77F524B665D8002E7AEA /* Preview Assets.xcassets in Resources */,
+				D7F7A3CB2A24CC4C0065D0BD /* nerd.mp3 in Resources */,
+				D7F7A3CC2A24CC4C0065D0BD /* rush.mp3 in Resources */,
 				D733DE2C2A23FD7C00443958 /* song.mp3 in Resources */,
 				C20D77F224B665D8002E7AEA /* Assets.xcassets in Resources */,
 				C20D780724B685AC002E7AEA /* landmarkData.json in Resources */,
