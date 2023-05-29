@@ -6,8 +6,10 @@ A view showing the details for a landmark.
 */
 
 import SwiftUI
+import Subsonic
 
 struct LandmarkDetail: View {
+    @StateObject private var sound = SubsonicPlayer(sound: "song.mp3")
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
 
@@ -55,6 +57,20 @@ struct LandmarkDetail: View {
                     .font(.headline)
 
                 Text(landmark.currentOwner)
+                
+                Divider()
+                
+                VStack {
+                    Button("Start") {
+                        sound.play()
+                    }
+
+                    Button("Stop") {
+                        sound.stop()
+                    }
+
+                    Slider(value: $sound.volume)
+                }
                 
                     
             }
