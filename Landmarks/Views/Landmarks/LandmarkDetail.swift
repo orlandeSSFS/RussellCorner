@@ -9,9 +9,7 @@ import SwiftUI
 import Subsonic
 
 struct LandmarkDetail: View {
-    @StateObject private var song = SubsonicPlayer(sound: "song.mp3")
-    @StateObject private var rush = SubsonicPlayer(sound: "rush.mp3")
-    @StateObject private var nerd = SubsonicPlayer(sound: "nerd.mp3")
+    @StateObject private var song = SubsonicPlayer(sound: "yellow.mp3")
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
 
