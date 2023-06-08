@@ -6,7 +6,7 @@
         "state": "Massachusetts",
         "id": 1001,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "park": "Russell Corner",
         "coordinates": {
             "longitude": -71.8686668,
@@ -40,7 +40,7 @@
         "state": "Massachusetts",
         "id": 1003,
         "isFeatured": false,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "Russell Corner",
         "coordinates": {
             "longitude": -71.8686668,
@@ -57,7 +57,7 @@
         "state": "Massachusetts",
         "id": 1004,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "Russell Corner",
         "coordinates": {
             "longitude": -71.8686668,
